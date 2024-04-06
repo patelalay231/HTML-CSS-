@@ -1,0 +1,137 @@
+
+*{
+    margin : 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+:root{
+    --color-primary: #627254; /* Define primary color */
+    --color-secondary: #76885B; /* Define secondary color */
+    --color-accent: #DDDDDD; /* Define accent color */
+    --color-text: #EEEEEE; /* Define text color */
+}
+
+.container{
+    height :100%;
+    width: 100%;
+    background-color: var(--color-accent);
+    overflow: hidden;
+}
+
+
+
+.navContainer{
+    width : 100vw;
+    min-height: 80px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    margin: 20px;
+}
+
+#navList{
+    list-style: none;
+    margin-left:15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navLogo{
+    font-size: 40px;
+    color: var(--color-text);
+}
+
+a{
+    text-decoration: none;
+    color : var(--color-text);
+}
+
+#navLink{
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.footerBox{
+    width : 100vw;
+    min-height: 0px;
+    background-color: var(--color-primary);
+    text-align: center;
+    color: var(--color-text);
+    font-size: 20px;
+}
+
+.contentContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 2rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.rightBox img{
+    height: 320px;
+    border-radius: 50px;
+    transition: all 0.6s linear 0s;
+}
+
+.rightBox img:hover{
+    transform: scale(1.1);
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.leftBox h2{
+    font-size: 2rem;
+}
+
+.ingBox{
+    font-size: 1.4rem;
+    margin-left: 40px;
+    color: var(--color-text);
+}
+
+.recipeBox{
+    font-size: 1.1rem;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: var(--color-text);
+}
+
+.sectionBox{
+    width: 70%;
+    background-color: var(--color-secondary);
+    border-radius: 30px;
+    box-shadow:1px 2px 30px var(--color-secondary);
+    padding: 30px;
+}
+
+.itemName{
+    color: var(--color-text);
+    text-decoration: 2px underline;
+}
+
+.listName{
+    color: black;
+}
