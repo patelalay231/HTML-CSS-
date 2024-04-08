@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 228, 196, 0.342);
+}
+
+.container{
+    width: 75vw;
+    margin: auto;
+    padding: 2rem 1rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.headerContainer{
+    text-align: center;
+}
+
+.headerContainer h2{
+    color: chocolate;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1%;
+    padding: 2%;
+    gap: 20px;
+}
+
+@media (min-width:400px) {
+    .mainContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width:1080px) {
+    .mainContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:1340px) {
+    .mainContainer{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.cardContainer{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 25rem;
+    width: 15rem;
+    flex-direction: column;
+    background-color:white;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+}
+
+.titleContainer h3{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titleContainer{
+    margin-top: 10px;
+    color: rgb(92, 92, 92);
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.cardFooter{
+    display: flex;
+    margin: 10px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.authorContainer{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.authotAvtarContainer{
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.authorInfoContainer{
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.tagContainer{
+    display: flex;
+    margin: 0.45rem;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid rgba(255, 0, 0, 0.192);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    width: 50%;
+}
+.authorNameContainer{
+    color: rgb(41, 165, 241);
+    font-weight: bold;
+    font-size: 0.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
