@@ -10,6 +10,8 @@ This repository contains a collection of web development projects that I've buil
 ## Projects
 
 - **Project 1**: Simple Recipe site - without any external pre-build css library like bootstrap or tailwind
+- **Project 2**: Simple card site - without any external pre-build css library like bootstrap or tailwind
+- **Project 3**: blog site - without any external pre-build css library like bootstrap or tailwind
 
 
 ## About
