@@ -23,6 +23,9 @@ a{
 
 .headerContainer{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .headerContainer h2{
@@ -31,29 +34,14 @@ a{
 
 .mainContainer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(100px,250px));
+    justify-content: center;
     margin: 1%;
     padding: 2%;
-    gap: 20px;
+    gap: 10px;
 }
 
-@media (min-width:400px) {
-    .mainContainer{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
 
-@media (min-width:1080px) {
-    .mainContainer{
-        grid-template-columns: repeat(3,1fr);
-    }
-}
-
-@media (min-width:1340px) {
-    .mainContainer{
-        grid-template-columns: repeat(4,1fr);
-    }
-}
 .cardContainer{
     border: 2px solid gray;
     border-radius: 10px;
