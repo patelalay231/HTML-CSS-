@@ -12,7 +12,7 @@ This repository contains a collection of web development projects that I've buil
 - **Project 1**: Simple Recipe site 
 - **Project 2**: Simple card site
 - **Project 3**: blog site
-- **Project 4**: Study Sync - Responsive
+- **Project 4**: Study Sync - Responsive Design
 
 ## About
 
